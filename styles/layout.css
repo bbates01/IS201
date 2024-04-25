@@ -1,0 +1,167 @@
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common{
+    /* background-color: #cccccc; */
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header{
+    top: -2px;
+    left: -5px;
+    right: -2px;
+    height: 75px;
+    z-index: 2;
+    border-bottom: solid 1px #555555;
+    text-align: right;
+    position: fixed ;
+    background-color: rgba(178, 199, 211, 0.47);
+    padding-right: 10px;
+}
+
+.mainbody{
+    top: 75px;
+    left: 0px;
+    right: 0px;
+    bottom: 39px;
+    padding-right: 5px;
+    position: absolute;
+    text-align: center;
+    background-image: url(../assets/img/RaceTrackNight.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    flex-direction: column;
+}
+
+.mainbody p, .mainbody span {
+    margin: 0;
+}
+
+.subbody1{
+    top: 800px;
+    left: 0px;
+    right: 0px;
+    bottom: 39px;
+    padding-right: 5px;
+    position: absolute;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 610px;
+}
+
+.subbody2{
+    top: 1400px;
+    left: 0px;
+    right: 0px;
+    bottom: 39px;
+    padding-right: 5px;
+    position: absolute;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.subbody3{
+    top: 1900px;
+    left: 0px;
+    right: 0px;
+    bottom: 39px;
+    padding-right: 5px;
+    position: absolute;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.video-container {
+    top: 2300px;
+    left: 0px;
+    right: 0px;
+    bottom: 39px;
+    position: absolute;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.graph-container {
+    top: 3300px;
+    left: 0px;
+    right: 0px;
+    bottom: 39px;
+    position: absolute;
+    padding: 20px;
+
+}
+
+.subbody-left {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* Add any additional styles for the left container */
+}
+
+.subbody-right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* Add any additional styles for the right container */
+}
+
+
+.footer{
+    top: 1100px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+}
+
+.subheader{
+    float: right;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Optional: Adds some space between the links */
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

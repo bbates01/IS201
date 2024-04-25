@@ -1,0 +1,69 @@
+.main_header {
+    font: 120px Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgba(125, 125, 125, 0.5);
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    margin-bottom: 100px;
+}
+
+.link_style {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 5px;
+    color: rgb(2, 2, 2)
+}
+.link_style:hover {
+    color: rgb(157, 157, 157);
+}
+
+.contentheader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.box1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    /* background-color: rgb(125, 125, 125, 0.5); */
+}
+
+.subheader_link {
+    color: white !important;
+    font: 20px Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none !important;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.subheader_link:hover {
+    color: rgb(137, 137, 137) !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.inline {
+    display: inline;
+}
+
+.test-box {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+
+.italic {
+    font-style: italic;
+}
